@@ -1,0 +1,28 @@
+name: ml-env
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python
+  - pip
+
+  # default chanel
+  - keras
+  - joblib
+  - numpy
+  - pandas
+  - pytables
+  - scikit-learn
+  - seaborn
+
+  # conda-forge packages
+  - conda-forge:autopep8
+  - conda-forge:isort
+  - conda-forge:lightgbm
+  - conda-forge:scikit-optimize 
+
+  - pip:
+    - nbstripout
+
