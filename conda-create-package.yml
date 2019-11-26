@@ -20,9 +20,7 @@ dependencies:
   # conda-forge packages
   - conda-forge:autopep8
   - conda-forge:isort
+  - conda-forge:jupyterlab
   - conda-forge:lightgbm
+  - conda-forge:nbstripout
   - conda-forge:scikit-optimize 
-
-  - pip:
-    - nbstripout
-
