@@ -29,4 +29,3 @@ dependencies:
 
   - pip:
       git+https://github.com/darenr/scikit-optimize
-
