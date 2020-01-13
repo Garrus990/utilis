@@ -34,3 +34,6 @@ bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
 
 # hydrogen
 apm install hydrogen
+
+# terminal-plus
+apm install terminal-plus

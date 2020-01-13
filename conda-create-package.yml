@@ -9,20 +9,24 @@ dependencies:
   - pip
 
   # default chanel
+  - datashader  # fancy plots
   - keras
   - joblib
   - numpy
   - pandas
   - pytables
   - scikit-learn
+  - scikit-optimize
   - seaborn
 
   # conda-forge packages
   - conda-forge:autopep8
   - conda-forge:isort
+  - conda-forge:jupyterlab
   - conda-forge:lightgbm
-  - conda-forge:scikit-optimize 
+  - conda-forge:nbstripout
+  - conda-forge:plotnine 
 
   - pip:
-    - nbstripout
+      git+https://github.com/darenr/scikit-optimize
 
