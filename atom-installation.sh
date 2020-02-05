@@ -37,3 +37,9 @@ apm install hydrogen
 
 # terminal-plus
 apm install terminal-plus
+
+# python - docblock (automatic documentation for Python functions)
+apm install docblock-python
+
+# opening CSV files directly in atom
+apm install https://github.com/mfripp/atom-tablr.git  # original tablr repo has an error - keep an eye on it!
