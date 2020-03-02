@@ -7,6 +7,7 @@ channels:
 dependencies:
   - python
   - pip
+  - plotly
 
   # default chanel
   - datashader  # fancy plots
@@ -27,5 +28,7 @@ dependencies:
   - conda-forge:nbstripout
   - conda-forge:plotnine 
 
+  - plotly:plotly
+ 
   - pip:
       git+https://github.com/darenr/scikit-optimize
