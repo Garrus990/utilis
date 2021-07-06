@@ -10,15 +10,26 @@ dependencies:
   - plotly
 
   # default chanel
+  - autopep8
+  - bokeh
   - datashader  # fancy plots
+  - hvplot
   - keras
   - joblib
+  - matplotlib
+  - mlxtend
+  - nodejs
   - numpy
   - pandas
+  - ptvsd
   - pytables
+  - python-language-server
   - scikit-learn
   - scikit-optimize
+  - scipy
   - seaborn
+  - tqdm
+  - xeus-python
 
   # conda-forge packages
   - conda-forge:autopep8
@@ -26,9 +37,6 @@ dependencies:
   - conda-forge:jupyterlab
   - conda-forge:lightgbm
   - conda-forge:nbstripout
-  - conda-forge:plotnine 
+  - conda-forge:plotnine
 
   - plotly:plotly
- 
-  - pip:
-      git+https://github.com/darenr/scikit-optimize
